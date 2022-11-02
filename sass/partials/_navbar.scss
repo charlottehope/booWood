@@ -1,0 +1,62 @@
+.navbar-collapse {
+  background-color: $white;
+}
+nav .container-fluid,
+.navbar {
+  padding: 0;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+nav ul a {
+  color: $black !important;
+}
+nav ul a:hover {
+  color: #828282 !important;
+}
+.navbar-brand {
+  font-size: 25px;
+  font-weight: 600;
+  margin-right: 27px;
+}
+nav h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 20px 0 0 0;
+}
+nav li {
+  font-size: 20px;
+  font-weight: 500;
+}
+#navbarSupportedContent {
+  padding: 15px;
+}
+.login-btn {
+  margin-bottom: 100px;
+  width: 129px;
+  height: 56px;
+}
+nav i {
+  margin-right: 15px;
+  color: $white;
+}
+.admin-nav {
+  margin-left: 60px;
+}
+
+// LARGE
+@media (min-width: 992px) {
+  .navbar-brand {
+    font-size: 35px;
+  }
+  .navbar-toggler-icon {
+    width: 2em;
+    height: 2em;
+  }
+  .fa-solid {
+    font-size: 25px;
+  }
+}

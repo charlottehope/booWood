@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.breadcrumb.products-breadcrumb {
+  margin: 35px 25px 0px 25px;
+}
+.breadcrumb {
+  margin: 35px 25px 0px 5px;
+}
+.breadcrumb li {
+  font-size: 12px;
+}
+.breadcrumb-item a {
+  color: #7e7e7e;
+}
+.breadcrumb-item.active {
+  font-weight: 700;
+}
+.max-width {
+  max-width: 1200px;
+  margin: 0 auto;
+}

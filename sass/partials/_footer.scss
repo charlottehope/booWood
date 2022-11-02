@@ -1,0 +1,23 @@
+.footer-logos img {
+  height: 25px;
+  padding: 0 5px;
+}
+footer {
+  background-color: $black;
+  color: $white;
+  padding-top: 30px;
+}
+footer a {
+  color: $white;
+}
+footer a:hover {
+  color: #828282;
+}
+footer ul {
+  list-style: none;
+}
+footer ul,
+footer li {
+  margin-left: 0;
+  padding-left: 0;
+}

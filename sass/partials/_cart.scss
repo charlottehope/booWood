@@ -1,0 +1,32 @@
+.cart {
+  margin-top: 45px;
+}
+.img-fluid {
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+}
+.remove-product,
+.subtotal {
+  text-align: right;
+}
+.cart-card {
+  margin-bottom: 15px;
+  border-bottom: 0.5px solid $grey;
+  padding-bottom: 15px;
+}
+.checkout {
+  margin-top: 35px;
+}
+.subtotal {
+  margin-top: -20px;
+}
+.empty-cart {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .checkout-container {
+    width: 70%;
+  }
+}

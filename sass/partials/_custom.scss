@@ -1,0 +1,38 @@
+// COLORS
+$dark: #000000;
+$grey: #7e7e7e;
+$navbar-dark-color: #ffffff;
+$navbar-dark-toggler-border-color: #000000;
+$form-label-color: #000000;
+$carousel-control-color: #000000;
+$breadcrumb-divider-color: #7e7e7e;
+$breadcrumb-active-color: #616060;
+$input-color: #000000;
+$input-placeholder-color: #7f7f7f;
+$form-label-color: #000000;
+
+// BUTTONS
+$btn-border-radius: 0;
+$carousel-control-opacity: unset;
+
+// CARDS
+$card-border-radius: none;
+
+// INPUTS
+$input-border-radius: none;
+$input-focus-box-shadow: none;
+
+// SPACING
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 5,
+  7: $spacer * 7,
+  8: $spacer * 9,
+  9: $spacer * 11,
+);

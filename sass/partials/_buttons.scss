@@ -1,0 +1,53 @@
+.btn-light,
+.btn-light:hover {
+  border: none;
+}
+.btn-light:hover {
+  background-color: $black;
+  color: $white;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  padding-bottom: 95px;
+}
+.btn-group {
+  gap: 7px;
+}
+.btn-outline-dark {
+  --bs-btn-focus-shadow-rgb: none;
+}
+.featured,
+.add-to-cart,
+.submit-btn,
+.delete-btn,
+.login,
+.update-btn {
+  width: 100%;
+}
+.add-to-cart,
+.submit-btn {
+  margin: 10px 0;
+}
+.shop-now {
+  margin-top: 10px;
+}
+// MEDIUM
+@media (min-width: 768px) {
+  .add-to-cart {
+    width: 50%;
+  }
+  .submit-btn,
+  .update-btn,
+  .delete-btn {
+    width: 70%;
+    margin: 0px;
+  }
+  .update-btn {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 992px) {
+  .add-to-cart {
+    width: 40%;
+  }
+}

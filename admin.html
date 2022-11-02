@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>booWood | Add/Edit products</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="Description" content="Welcome to booWood. Your go-to web shop for everyday street clothing"/>
+    <meta name="keywords" content="boowood, street clothing, street, clothes, clothing, shoes, pants, tshirts, hoodies, e-commerce, web shop, noroff, exam, front end development"/>
+    <meta name="author" content="Charlotte Hope">
+    <script
+      src="https://kit.fontawesome.com/c8272b2928.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <span>
+      </span>
+        <a class="navbar-brand admin-nav" href="index.html">booWood</a>
+        <div class="logout"></div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="wrapper max-width">
+      <h1>ADD/EDIT PRODUCTS</h1>
+      
+      <section class="add-edit-products">
+        
+        <form class="add-edit-products-form">
+          <h5>ADD PRODUCT</h5>
+          <div class="row">
+          <div class="col-md">
+            <div class="message-container"></div>
+          <input class="form-control" id="title" placeholder="Product title">
+          <input class="form-control" id="price" placeholder="Price">
+          <textarea rows="8" class="form-control" id="description" placeholder="Product description"></textarea>
+         <label class="margin-label">Featured product?</label>
+            <br>
+          <div>
+            <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
+            <label class="btn btn-outline-dark" for="btn-check-outlined">Yes</label>
+          </div>
+          <label class="margin-label">Product image</label>
+          <input class="form-control" id="image" placeholder="Product image URL">
+          </div>
+
+          <div class="col-md text-center">
+          <button class="btn btn-dark submit-btn" type="submit">SUBMIT</button>
+          </div>
+          
+          </div>
+        </form>
+      </section>
+
+      <section class="products">
+        <h5 id="edit-h5">EDIT PRODUCTS</h5>
+        <div class="container-fluid">
+          <div class="row product-container"></div>
+        </div>
+      </section>
+
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col">
+            <h4>Products</h4>
+            <ul>
+              <li><a href="products.html">All products</li></a>
+              <li><a href="#">T-Shirts</li></a>
+              <li><a href="#">Hoodies</li></a>
+              <li><a href="#">Pants</li></a>
+              <li><a href="#">Shoes</li></a>
+            </ul>
+            <h4>Account</h4>
+            <ul>
+              <li><a href="login.html">My account</li></a>
+              <li><a href="#">My orders</li></a>
+            </ul>
+          </div>
+          <div class="col">
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="#"><i class="fa-brands fa-facebook"></i> Facebook</li></a>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</li></a>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i> Twitter</li></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row justify-content-center">
+          <div class="footer-logos">
+            <img src="images/logos/244086.png" />
+            <img src="images/logos/78420.png" />
+            <img src="images/logos/739.png" />
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="footer-rights">
+            <p>©2022 booWood. All rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/admin/admin.js" type="module"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+.login-form,
+.add-edit-products-form {
+  margin: 45px 20px;
+}
+.login-form input,
+.add-edit-products-form input,
+.add-edit-products-form textarea {
+  margin-bottom: 7px;
+  border: 1px solid $black;
+}
+.login-form input {
+  text-align: center;
+}
+.margin-label {
+  margin-top: 20px;
+}
+.edit-buttons {
+  margin-top: 35px;
+}
+@media (min-width: 576px) {
+  .admin-login form {
+    max-width: 535px;
+    margin: 45px auto;
+  }
+}
+@media (min-width: 768px) {
+  .edit-buttons {
+    margin-top: 25px;
+  }
+}
