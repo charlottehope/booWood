@@ -48,7 +48,7 @@ Run the Strapi backend locally:
 ```bash
 npm run develop
 ```
-This will start that Strapi backend. Default port is 1337:
+This will start the Strapi backend. Default port is 1337:
 [http://localhost:1337](http://localhost:1337)
 
 #### Frontend
