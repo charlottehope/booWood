@@ -1,12 +1,13 @@
 # Semester Project 2 Charlotte Hope - booWood
+
+#### Frontpage
 <img width="1728" alt="boowood1" src="https://github.com/charlottehope/booWood/assets/65370439/575be13c-25c1-408b-b65c-ecd19d8f0a6f">
-Frontpage
 
+#### All products
 <img width="1728" alt="boowood2" src="https://github.com/charlottehope/booWood/assets/65370439/5b7adef5-8504-4d16-bf4d-a3fed4f46862">
-All products
 
+#### Product details
 <img width="700" alt="boowood3" src="https://github.com/charlottehope/booWood/assets/65370439/0f9bfda0-81b4-423b-b3cf-70d3301f5048">
-Product details
 
 ## Description
 This is my submission for my second year's semester project at Noroff. It's an onlie clothing store, especially targeted at street fashion.
