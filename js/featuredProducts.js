@@ -1,5 +1,6 @@
 import { productsUrl } from "./settings/api.js";
 import displayMessage from "./components/displayMessage.js";
+import { baseUrl } from "./settings/api.js";
 
 const container = document.querySelector(".carousel-inner");
 
@@ -22,7 +23,7 @@ async function getFeaturedProducts() {
       container.innerHTML += `<div class="carousel-item ${activeClass}">
       <div class="col">
     <div class="card carousel-card">
-                <a href="product-details.html?id=${featuredProducts[i].id}"><div class="card-img-top carousel-card-img-top" style="background-image:url(${featuredProducts[i].image_url})"></div></a>
+                <a href="product-details.html?id=${featuredProducts[i].id}"><div class="card-img-top carousel-card-img-top" style="background-image:url(${baseUrl}${featuredProducts[i].image.url})"></div></a>
                 <div class="card-body">
                   <a href="product-details.html?id=${featuredProducts[i].id}"><h4>${featuredProducts[i].title}</h4></a>
                   <p class="card-text">

@@ -12,7 +12,7 @@ import displayMessage from "./components/displayMessage.js";
     container.innerHTML += `<div class="hero-image" style="background-image:url(${baseUrl}${photo.hero_banner.formats.medium.url})">
           <div class="hero-text drop-shadow-text">
             <h3>NOW INTRODUCING</h3>
-            <h2>Fall Collection <br />2022</h2>
+            <h2>Fall Collection <br />2023</h2>
             <a href="products.html"
               ><button class="btn btn-light">SHOP NOW</button></a
             >

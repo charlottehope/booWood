@@ -1,5 +1,6 @@
 import { productsUrl } from "./settings/api.js";
 import displayMessage from "./components/displayMessage.js";
+import { baseUrl } from "./settings/api.js";
 
 const container = document.querySelector(".product-container");
 const search = document.querySelector(".product-search");
@@ -18,7 +19,7 @@ const search = document.querySelector(".product-search");
       productsToRender.forEach(function (product) {
         container.innerHTML += `<div class="col">
               <div class="card products-card">
-                <a href="product-details.html?id=${product.id}"><div class="card-img-top products-card-img-top" style="background-image:url(${product.image_url})"></div></a>
+                <a href="product-details.html?id=${product.id}"><div class="card-img-top products-card-img-top" style="background-image:url(${baseUrl}${product.image.url})"></div></a>
                 <div class="card-body">
                   <a href="product-details.html?id=${product.id}"><h4>${product.title}</h4></a>
                     <p class="card-text">

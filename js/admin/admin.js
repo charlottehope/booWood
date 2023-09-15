@@ -127,7 +127,7 @@ async function addProduct(title, price, description, featured, image) {
       productsToRender.forEach(function (product) {
         container.innerHTML += `<div class="col">
               <div class="card products-card">
-                <a href="edit-product.html?id=${product.id}"><div class="card-img-top products-card-img-top" style="background-image:url(${product.image_url})"></div></a>
+                <a href="edit-product.html?id=${product.id}"><div class="card-img-top products-card-img-top" style="background-image:url(${baseUrl}${product.image.url})"></div></a>
                 <div class="card-body">
                   <a href="product-details.html?id=${product.id}"><h4>${product.title}</h4></a>
                     <p class="card-text">

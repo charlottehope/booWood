@@ -1,5 +1,6 @@
 import { getExistingCart } from "./utils/getCart.js";
 import removefromCart from "./utils/removeFromCart.js";
+import { baseUrl } from "./settings/api.js";
 
 const cart = getExistingCart();
 console.log(cart);
@@ -25,7 +26,7 @@ cart.forEach((cartProduct) => {
         <div class="row g-0">
           <div class="col">
             <a href="product-details.html?id=${cartProduct.id}">
-            <div class="img-fluid" style="background-image:url(${cartProduct.image})"></div></a>
+            <div class="img-fluid" style="background-image:url(${baseUrl}${cartProduct.image})"></div></a>
           </div>
         <div class="col">
           <div class="card-body">

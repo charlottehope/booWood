@@ -1,6 +1,7 @@
 import { productsUrl } from "./settings/api.js";
 import addToCart from "./utils/addToCart.js";
 import displayMessage from "./components/displayMessage.js";
+import { baseUrl } from "./settings/api.js";
 
 const queryString = document.location.search;
 
@@ -36,7 +37,7 @@ console.log(productID);
         <div class="added-to-cart"></div>
   <div class="row">
         <div class="col-md">
-  <div class="product-photo" style="background-image:url(${details.image_url})"></div>
+  <div class="product-photo" style="background-image:url(${baseUrl}${details.image.url})"></div>
   </div>
   <div class="col-md">
           <div class="product-info">
@@ -44,7 +45,7 @@ console.log(productID);
             <p>$${details.price}</p>
           </div>
           <form class="order">
-          <button class="btn btn-dark add-to-cart" type="button" data-id="${details.id}" data-name="${details.title}" data-image="${details.image_url}" data-price="${details.price}">ADD TO CART</button>
+          <button class="btn btn-dark add-to-cart" type="button" data-id="${details.id}" data-name="${details.title}" data-image="${details.image.url}" data-price="${details.price}">ADD TO CART</button>
         </form>
         
         <div class="product-information">
